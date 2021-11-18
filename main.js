@@ -14,7 +14,7 @@ var horaText = document.getElementById("hour");
 var pTiempo = document.getElementById("diaActual");
 
 
-pTiempo.innerHTML += `${diaHoy} / ${mesHoy} + 1 / ${yearHoy}`
+pTiempo.innerHTML += `${diaHoy} / ${mesHoy} / ${yearHoy}`
 // horaText.innerHTML += `${horaActual}: ${minutos}`;
 horaText.innerHTML += reloj();
 
