@@ -4,14 +4,14 @@ function random(n){
 
 let imgTiempo = ["img/Lluvia.jpg", "img/Nublado.jpg", "img/Soleado.jpg"];
 
-const hoy = new Date();
-const diaHoy = hoy.getDate();
-const mesHoy = hoy.getMonth();
-const yearHoy = hoy.getFullYear();
-const horaActual = hoy.getHours();
-const minutos = hoy.getMinutes();
-const horaText = document.getElementById("hour");
-const pTiempo = document.getElementById("diaActual");
+var hoy = new Date();
+var diaHoy = hoy.getDate();
+var mesHoy = hoy.getMonth();
+var yearHoy = hoy.getFullYear();
+var horaActual = hoy.getHours();
+var minutos = hoy.getMinutes();
+var horaText = document.getElementById("hour");
+var pTiempo = document.getElementById("diaActual");
 
 
 pTiempo.innerHTML += `${diaHoy} / ${mesHoy} / ${yearHoy}`
